@@ -1,0 +1,9 @@
+This code is a simple React application that allows a user to customize their pizza by selecting a size and adding toppings.
+
+The state variables size and toppings are used to store the user's selections. The sizeOptions object is a map of the available size options and their corresponding prices.
+
+The handleSizeChange function is used to handle the user's selection of a pizza size. It updates the size state variable with the selected size. The handleToppingChange function is used to handle the user's selection of pizza toppings. It adds or removes a topping from the toppings state variable depending on whether the topping was already selected or not.
+
+The totalCost variable is used to calculate the total cost of the pizza based on the size and toppings selections.
+
+The return statement renders the JSX for the application. It includes a form with radio buttons for selecting the size and checkboxes for selecting the toppings. It also includes a div element with a summary of the size and toppings selections and the total cost.

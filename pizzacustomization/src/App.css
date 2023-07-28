@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('./Pizza.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: aliceblue;
+  height: 100%; 
+  width: 100%;
+  position: fixed;
+}
+.header {
+  
+  text-align: center;
+  font-style: italic;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+  
+}
+
+
+.form-label {
+   
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+
+
+
+.form-label input[type="checkbox"],
+.form-label input[type="radio"] {
+  position: relative;
+  top: 2px;
+  
+  
+} 
+.p{
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.summary-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-style: italic;
+  color: rgb(5, 5, 5);
+}
+
